@@ -1,41 +1,38 @@
-# Prerequisites
-*.d
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Electron build çıktısı
+dist/
+out/
+build/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Electron cache
+.cache/
+.electron/
 
-# Linker files
-*.ilk
+# OS ve IDE dosyaları
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
 
-# Debugger Files
-*.pdb
+# VS Code
+.vscode/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Asar dosyası (sıkıştırılmış kaynaklar)
+*.asar
 
-# Fortran module files
-*.mod
-*.smod
+# Loglar
+*.log
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Temp
+temp/
+*.tmp
 
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Env dosyaları
+.env
+.env.local
+.env.production
