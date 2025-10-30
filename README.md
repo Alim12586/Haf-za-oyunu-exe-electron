@@ -1,1 +1,1 @@
-# Haf-za-oyunu-exe-c
+# Hafıza oyunu exe
